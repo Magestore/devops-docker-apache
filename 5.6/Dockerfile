@@ -61,26 +61,27 @@ RUN \
 
 # Install PHP5.6 with Xdebug (dev environment). WARNING with install php5.6-apcu.
 RUN apt-get -yqq install \
-  php5.6 		\
-  php5.6-curl 		\
-  php5.6-dev 		\
-  php5.6-gd 		\
-  php5.6-dom		\
-  php5.6-intl 		\
-  php5.6-json 		\
-  php5.6-mbstring	\
-  php5.6-mcrypt 	\
-  php5.6-mysql		\
-  php5.6-uploadprogress \
-  php5.6-ssh2		\
-  php5.6-xml		\
-  php5.6-zip		\
-  php5.6-solr		\
-  php5.6-opcache	\
-  php5.6-memcache 	\
-  php5.6-memcached 	\
-  php5.6-redis		\
-  php5.6-xdebug		\
+  php5.6                 \
+  php5.6-curl            \
+  php5.6-dev             \
+  php5.6-gd              \
+  php5.6-dom             \
+  php5.6-intl            \
+  php5.6-json            \
+  php5.6-mbstring        \
+  php5.6-mcrypt          \
+  php5.6-mysql           \
+  php5.6-uploadprogress  \
+  php5.6-ssh2            \
+  php5.6-xml             \
+  php5.6-soap            \
+  php5.6-zip             \
+  php5.6-solr            \
+  php5.6-opcache         \
+  php5.6-memcache        \
+  php5.6-memcached       \
+  php5.6-redis           \
+  php5.6-xdebug          \
   libapache2-mod-php5.6 && \
   apt-get -yqq install php5.6-apcu --no-install-recommends
 
